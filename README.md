@@ -23,15 +23,7 @@ Expectations: Use gitlab or github for versioning of your project. Focus on the 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the following librairies.
 
 ```bash
-pip install numpy
-pip install pandas
-pip install matplotlib
-pip install plotpy
-pip install pyarrow
-pip install pymongo
-pip install python-dateutil
-pip install requests
-pip install beautifulsoup4
+pip install -r requirementx.txt
 ```
 To use pyspark
 - install java 8
