@@ -42,7 +42,7 @@ To use MongoDB Atlas
 
 ### task 1
 ```python
-testsyrime-git> python -m testsymrise
+add> python -m testsymrise
 ```
 When the first graph appears click close
 
