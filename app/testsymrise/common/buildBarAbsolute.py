@@ -2,6 +2,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def buildBarAbsolute(input_data):
+    """
+    this fonction builds a graphic bar 
+
+    return : displays a graphic bar
+    """
     df = pd.DataFrame(input_data)
 
     # Créer un pivot table pour avoir "Avec Climatisation" et "Sans Climatisation" comme colonnes distinctes
