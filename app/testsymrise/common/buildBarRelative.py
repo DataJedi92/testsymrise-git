@@ -2,6 +2,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def buildBarRelative(input_data):
+    """
+    this fonction builds a graphic bar 
+
+    return : displays a graphic bar
+    """
     print(sorted(list(set(input_data["City"])))) # OK
 
     ratio = []

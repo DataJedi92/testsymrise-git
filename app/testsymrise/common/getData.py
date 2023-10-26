@@ -4,6 +4,12 @@ from bs4 import BeautifulSoup
 
 
 def getData():
+    """
+    get data from a rentberry for 3 cities : BERLIN, KOLN and MUNCHEN
+
+    return : dataframe with the number total of flats per city and the 
+    number total of flats per city with air conditioning
+    """
     URL_MAIN = 'https://rentberry.com/de/apartments/s/'
     URL_LASTPART = ['/air-conditioning','']
     IND_AIRCON = ['with A/C', 'without A/C']
